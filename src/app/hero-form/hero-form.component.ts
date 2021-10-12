@@ -12,12 +12,6 @@ export class HeroFormComponent {
 
   model = new MyHero(18, 'Dr IQ', this.powers[0], 'Chuck Overstreet');
 
-  const myHero =  new MyHero(42, 'SkyDog',
-                       'Fetch any object at any distance',
-                       'Leslie Rollover');
-                       
-  console.log('My hero is called ' + myHero.name); // "My hero is called SkyDog"
-
   submitted = false;
 
   onSubmit() {
